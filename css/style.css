@@ -1,0 +1,89 @@
+body {
+    padding: 10px 100px 10px 100px;
+    
+}
+h1 {    
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 100px;
+    
+}
+
+p{
+    color:green;
+    font-weight: bolder;
+    padding: 0%;
+    margin: 0%;
+}
+
+#Pesquisa{
+    display: flex;        
+    align-items: center;
+}
+
+#Pesquisa input {
+    margin-right: 10px;
+    
+}
+
+.Resultados-container{
+    margin-top: 50px;
+    display: flex;    
+}
+
+.Usuarios-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    width: 500px;
+    border: 1px solid lightgray;    
+    padding-left: 25px;
+  }
+.Estatistica-lista {
+    margin-left: 50px;
+    width: 500px;
+    height: 250px;    
+    padding-left: 25px;
+    border: 1px solid lightgray;        
+    
+}
+
+.Estatistica-lista h6 {
+    padding-left: 15px;
+    padding-bottom: 8px;
+}
+
+span {
+    font-weight: bolder;
+}
+
+img {
+    border-radius: 50%;
+    display: flex; 
+    margin-right: 10px;   
+}
+
+.usuario {
+    padding: 0px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+ul {
+    margin: 0px;
+}
+
+ul li {
+    display: inline;
+    margin-right: 1px;
+    font-weight: 700;
+
+}
+
+#tabUsuarios {
+    padding-bottom: 10px;
+}
